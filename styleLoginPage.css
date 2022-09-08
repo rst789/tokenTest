@@ -1,0 +1,58 @@
+h1 {
+    opacity: 1;
+    text-align: center;
+    font-size: 33px;
+    font-family: sans-serif, serif;
+}
+
+h2 {
+    font-size: 180%;
+    display: grid;
+    text-align: center;
+    opacity: 0;
+}
+
+body {
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    background-image: linear-gradient(to top left, #bb7bee, #4a2498);
+    color: seashell;
+}
+
+#login-error-msg-holder {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+
+#register-msg-holder {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+
+#register-msg {
+    width: 100%;
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+    color: #000000;
+    background-color: #ffffff;
+    opacity: 0;
+}
+
+#login-form {
+    opacity: 1;
+}
+
+#register-form {
+    opacity: 0;
+}
